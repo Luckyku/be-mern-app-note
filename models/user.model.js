@@ -1,5 +1,5 @@
 const moongoose = require("mongoose")
-const Schema = moongoose.Schema
+const Schema = moongoose.Schema;
 
 const userSchema = new Schema({
     fullName: {type: String},
